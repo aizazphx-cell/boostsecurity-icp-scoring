@@ -1,0 +1,153 @@
+{
+  "name": "Supabase",
+  "collected_at": "2026-10-01",
+  "jobs": {
+    "board": "https://api.ashbyhq.com/posting-api/job-board/supabase",
+    "total_open": 48,
+    "strong": [],
+    "partial": [
+      [
+        "Platform Security Engineer (AMER/APAC)",
+        "https://jobs.ashbyhq.com/supabase/8fa1c7a0-a85c-4562-a1f5-4dd22cadae27"
+      ]
+    ]
+  },
+  "github": {
+    "org_url": "https://github.com/supabase",
+    "public_repos_total": 172,
+    "sampled": 30,
+    "repos_with_actions": [
+      "supabase/slim-services",
+      "supabase/supabase",
+      "supabase/supabase-js",
+      "supabase/cli",
+      "supabase/evals",
+      "supabase/supabase-swift",
+      "supabase/postgres-meta",
+      "supabase/supabase-flutter",
+      "supabase/storage",
+      "supabase/etl",
+      "supabase/sdk",
+      "supabase/pg_jsonschema",
+      "supabase/postgres",
+      "supabase/auth",
+      "supabase/supabase-csharp",
+      "supabase/mcp",
+      "supabase/edge-runtime",
+      "supabase/realtime",
+      "supabase/scoop-bucket",
+      "supabase/homebrew-tap",
+      "supabase/supavisor",
+      "supabase/pg_net",
+      "supabase/supautils",
+      "supabase/middleware-openfeature",
+      "supabase/server",
+      "supabase/middleware",
+      "supabase/pg-toolbelt",
+      "supabase/supabase-py",
+      "supabase/splinter",
+      "supabase/vault"
+    ],
+    "advisories": [
+      {
+        "id": "GHSA-x5vv-ww37-gvwm",
+        "repo": "supabase/postgres",
+        "published": "2026-09-30",
+        "severity": "low",
+        "within_12m": true,
+        "url": "https://github.com/supabase/postgres/security/advisories/GHSA-x5vv-ww37-gvwm",
+        "summary": "Local privilege escalation via trusted-users misconfiguration in Nix setup docs/config"
+      },
+      {
+        "id": "GHSA-v36f-qvww-8w8m",
+        "repo": "supabase/auth",
+        "published": "2026-03-11",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/supabase/auth/security/advisories/GHSA-v36f-qvww-8w8m",
+        "summary": "Insecure Apple and Azure authentication with ID tokens"
+      },
+      {
+        "id": "GHSA-3529-5m8x-rpv3",
+        "repo": "supabase/auth",
+        "published": "2024-11-06",
+        "severity": "high",
+        "within_12m": false,
+        "url": "https://github.com/supabase/auth/security/advisories/GHSA-3529-5m8x-rpv3",
+        "summary": "Email link poisoning vulnerability"
+      },
+      {
+        "id": "GHSA-9vjf-j9f7-j42c",
+        "repo": "supabase/realtime",
+        "published": "2026-09-24",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/supabase/realtime/security/advisories/GHSA-9vjf-j9f7-j42c",
+        "summary": "Client-supplied bytes are spliced unvalidated into other subscribers' JSON frames, letting any broadcaster forge Realtime protocol events (including postgres_changes) to every other client on the channel"
+      },
+      {
+        "id": "GHSA-pfwq-rf2r-mjgc",
+        "repo": "supabase/realtime",
+        "published": "2026-08-17",
+        "severity": "low",
+        "within_12m": true,
+        "url": "https://github.com/supabase/realtime/security/advisories/GHSA-pfwq-rf2r-mjgc",
+        "summary": "Unauthenticated log injection / terminal escape injection via OpenTelemetry baggage header"
+      },
+      {
+        "id": "GHSA-rcr8-2525-4r7p",
+        "repo": "supabase/realtime",
+        "published": "2026-06-25",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/supabase/realtime/security/advisories/GHSA-rcr8-2525-4r7p",
+        "summary": "Incorrect Authorization in supabase/realtime"
+      },
+      {
+        "id": "GHSA-hg9h-6mhq-6c2v",
+        "repo": "supabase/realtime",
+        "published": "2026-06-16",
+        "severity": "low",
+        "within_12m": true,
+        "url": "https://github.com/supabase/realtime/security/advisories/GHSA-hg9h-6mhq-6c2v",
+        "summary": "Expired JWTs with string exp are accepted by REST broadcast authorization"
+      },
+      {
+        "id": "GHSA-5pqj-rc76-r669",
+        "repo": "supabase/supautils",
+        "published": "2026-09-07",
+        "severity": "critical",
+        "within_12m": true,
+        "url": "https://github.com/supabase/supautils/security/advisories/GHSA-5pqj-rc76-r669",
+        "summary": "SUPABASE6 | FDW validator re-resolution allows to become PostgreSQL superuser"
+      },
+      {
+        "id": "GHSA-v9vh-54vv-7vfg",
+        "repo": "supabase/supautils",
+        "published": "2026-09-07",
+        "severity": "critical",
+        "within_12m": true,
+        "url": "https://github.com/supabase/supautils/security/advisories/GHSA-v9vh-54vv-7vfg",
+        "summary": "SUPABASE5 | Supautils constrained_extensions OOB write enables pgsodium-backed superuser escalation"
+      },
+      {
+        "id": "GHSA-vxh6-6m4g-c39q",
+        "repo": "supabase/supautils",
+        "published": "2026-09-07",
+        "severity": "critical",
+        "within_12m": true,
+        "url": "https://github.com/supabase/supautils/security/advisories/GHSA-vxh6-6m4g-c39q",
+        "summary": "SUPABASE4 | supautils validator-less FDW creation lets a delegated role become PostgreSQL superuser RCE"
+      },
+      {
+        "id": "GHSA-xj9m-rx42-rfc7",
+        "repo": "supabase/supautils",
+        "published": "2026-09-07",
+        "severity": "critical",
+        "within_12m": true,
+        "url": "https://github.com/supabase/supautils/security/advisories/GHSA-xj9m-rx42-rfc7",
+        "summary": "SUPABASE3 | supautils custom-script placeholder re-substitution gives a non-superuser SQL role PostgreSQL superuser RCE"
+      }
+    ]
+  }
+}

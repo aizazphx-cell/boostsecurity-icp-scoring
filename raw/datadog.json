@@ -1,0 +1,170 @@
+{
+  "name": "Datadog",
+  "collected_at": "2026-10-01",
+  "jobs": {
+    "board": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs",
+    "total_open": 437,
+    "strong": [
+      [
+        "Senior Application Security Engineer",
+        "https://careers.datadoghq.com/detail/8230663/?gh_jid=8230663"
+      ],
+      [
+        "Staff Application Security Engineer",
+        "https://careers.datadoghq.com/detail/7777798/?gh_jid=7777798"
+      ]
+    ],
+    "partial": [
+      [
+        "Director, Product Management - Cloud Security and Shared Capabilities",
+        "https://careers.datadoghq.com/detail/8030324/?gh_jid=8030324"
+      ],
+      [
+        "Senior Platform Security Engineer",
+        "https://careers.datadoghq.com/detail/7815616/?gh_jid=7815616"
+      ],
+      [
+        "Senior Security Engineer, Vulnerability Management",
+        "https://careers.datadoghq.com/detail/8173840/?gh_jid=8173840"
+      ]
+    ]
+  },
+  "github": {
+    "org_url": "https://github.com/DataDog",
+    "public_repos_total": 1208,
+    "sampled": 30,
+    "repos_with_actions": [
+      "DataDog/datadog-api-client-typescript",
+      "DataDog/datadog-api-client-python",
+      "DataDog/datadog-api-client-go",
+      "DataDog/integrations-core",
+      "DataDog/datadog-api-client-ruby",
+      "DataDog/datadog-agent",
+      "DataDog/pup",
+      "DataDog/java-profiler",
+      "DataDog/dd-trace-dotnet",
+      "DataDog/dd-sdk-reactnative",
+      "DataDog/datadog-api-client-java",
+      "DataDog/dd-trace-rs",
+      "DataDog/documentation",
+      "DataDog/datadog-api-client-rust",
+      "DataDog/system-tests",
+      "DataDog/saluki",
+      "DataDog/dd-trace-java",
+      "DataDog/dd-trace-js",
+      "DataDog/dd-trace-rb",
+      "DataDog/dd-sdk-android",
+      "DataDog/libdatadog",
+      "DataDog/datadog-lambda-extension",
+      "DataDog/datadog-operator",
+      "DataDog/electron-sdk",
+      "DataDog/dd-trace-go",
+      "DataDog/datadog-lambda-js",
+      "DataDog/datadog-security-playground",
+      "DataDog/datadog-ci",
+      "DataDog/dd-trace-php",
+      "DataDog/dd-trace-py"
+    ],
+    "advisories": [
+      {
+        "id": "GHSA-h8qx-4jh5-pf43",
+        "repo": "DataDog/datadog-agent",
+        "published": "2026-07-07",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/DataDog/datadog-agent/security/advisories/GHSA-h8qx-4jh5-pf43",
+        "summary": "Datadog SSI Injector can be used to trigger a Local Privilege Escalation in certain conditions"
+      },
+      {
+        "id": "GHSA-6852-76c5-6cmg",
+        "repo": "DataDog/datadog-agent",
+        "published": "2025-11-11",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/DataDog/datadog-agent/security/advisories/GHSA-6852-76c5-6cmg",
+        "summary": "Datadog Linux Host Agent affected by local privilege escalation due to insufficient pycache permissions"
+      },
+      {
+        "id": "GHSA-38wr-vpc7-2mp4",
+        "repo": "DataDog/dd-trace-dotnet",
+        "published": "2026-06-05",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/DataDog/dd-trace-dotnet/security/advisories/GHSA-38wr-vpc7-2mp4",
+        "summary": "Improper parsing of W3C baggage headers may lead to DoS"
+      },
+      {
+        "id": "GHSA-gpwf-4h98-v82q",
+        "repo": "DataDog/dd-trace-rs",
+        "published": "2026-06-22",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/DataDog/dd-trace-rs/security/advisories/GHSA-gpwf-4h98-v82q",
+        "summary": "Unbounded W3C tracestate parsing may lead to DoS"
+      },
+      {
+        "id": "GHSA-74xj-wh4w-vqxc",
+        "repo": "DataDog/dd-trace-java",
+        "published": "2026-06-05",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/DataDog/dd-trace-java/security/advisories/GHSA-74xj-wh4w-vqxc",
+        "summary": "Improper parsing of W3C baggage headers may lead to DoS"
+      },
+      {
+        "id": "GHSA-579q-h82j-r5v2",
+        "repo": "DataDog/dd-trace-java",
+        "published": "2026-03-23",
+        "severity": "critical",
+        "within_12m": true,
+        "url": "https://github.com/DataDog/dd-trace-java/security/advisories/GHSA-579q-h82j-r5v2",
+        "summary": "Unsafe deserialization in dd-trace-java RMI instrumentation may lead to remote code execution"
+      },
+      {
+        "id": "GHSA-wxqq-gcq8-c443",
+        "repo": "DataDog/dd-trace-js",
+        "published": "2026-06-05",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/DataDog/dd-trace-js/security/advisories/GHSA-wxqq-gcq8-c443",
+        "summary": "Improper parsing of W3C baggage headers may lead to DoS"
+      },
+      {
+        "id": "GHSA-p5f6-rccc-jv98",
+        "repo": "DataDog/dd-trace-rb",
+        "published": "2026-06-05",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/DataDog/dd-trace-rb/security/advisories/GHSA-p5f6-rccc-jv98",
+        "summary": "Improper parsing of W3C baggage headers may lead to DoS"
+      },
+      {
+        "id": "GHSA-74j5-xf3v-crq8",
+        "repo": "DataDog/dd-trace-go",
+        "published": "2026-06-05",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/DataDog/dd-trace-go/security/advisories/GHSA-74j5-xf3v-crq8",
+        "summary": "Improper parsing of W3C baggage headers may lead to DoS"
+      },
+      {
+        "id": "GHSA-phwx-ww2p-cv9v",
+        "repo": "DataDog/dd-trace-php",
+        "published": "2026-06-05",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/DataDog/dd-trace-php/security/advisories/GHSA-phwx-ww2p-cv9v",
+        "summary": "Improper parsing of W3C baggage headers may lead to DoS"
+      },
+      {
+        "id": "GHSA-mw54-j2v2-42hr",
+        "repo": "DataDog/dd-trace-py",
+        "published": "2026-06-05",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/DataDog/dd-trace-py/security/advisories/GHSA-mw54-j2v2-42hr",
+        "summary": "Improper parsing of W3C baggage headers may lead to DoS"
+      }
+    ]
+  }
+}

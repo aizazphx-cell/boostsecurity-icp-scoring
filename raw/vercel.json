@@ -1,0 +1,699 @@
+{
+  "name": "Vercel",
+  "collected_at": "2026-10-01",
+  "jobs": {
+    "board": "https://boards-api.greenhouse.io/v1/boards/vercel/jobs",
+    "total_open": 91,
+    "strong": [
+      [
+        "Product Security Engineer",
+        "https://job-boards.greenhouse.io/vercel/jobs/6102343004"
+      ]
+    ],
+    "partial": [
+      [
+        "Security Engineer, Cloud",
+        "https://job-boards.greenhouse.io/vercel/jobs/6102335004"
+      ],
+      [
+        "Security Engineer, Detection Response",
+        "https://job-boards.greenhouse.io/vercel/jobs/6111332004"
+      ]
+    ]
+  },
+  "github": {
+    "org_url": "https://github.com/vercel",
+    "public_repos_total": 239,
+    "sampled": 30,
+    "repos_with_actions": [
+      "vercel/flags",
+      "vercel/chat",
+      "vercel/vercel-plugin",
+      "vercel/next.js",
+      "vercel/workflow",
+      "vercel/vercel",
+      "vercel/eve",
+      "vercel/turborepo",
+      "vercel/ai",
+      "vercel/v0-sdk",
+      "vercel/vercel-py",
+      "vercel/sdk",
+      "vercel/bridge",
+      "vercel/shop",
+      "vercel/streamdown",
+      "vercel/terraform-provider-vercel",
+      "vercel/next-evals-oss",
+      "vercel/sandbox",
+      "vercel/fun",
+      "vercel/examples",
+      "vercel/microfrontends",
+      "vercel/react-tweet",
+      "vercel/repository-dispatch",
+      "vercel/satori",
+      "vercel/swr",
+      "vercel/analytics",
+      "vercel/storage"
+    ],
+    "advisories": [
+      {
+        "id": "GHSA-8x46-p23f-wqr2",
+        "repo": "vercel/flags",
+        "published": "2026-09-24",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/flags/security/advisories/GHSA-8x46-p23f-wqr2",
+        "summary": "Cross-request flag-state leakage in @flags-sdk/flagsmith"
+      },
+      {
+        "id": "GHSA-892p-pqrr-hxqr",
+        "repo": "vercel/flags",
+        "published": "2025-05-02",
+        "severity": "medium",
+        "within_12m": false,
+        "url": "https://github.com/vercel/flags/security/advisories/GHSA-892p-pqrr-hxqr",
+        "summary": "Information Disclosure may allow all flags to be listed"
+      },
+      {
+        "id": "GHSA-h694-7cp9-m8p3",
+        "repo": "vercel/next.js",
+        "published": "2026-09-30",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-h694-7cp9-m8p3",
+        "summary": "Cache leak across root param values in nested 'use cache' functions"
+      },
+      {
+        "id": "GHSA-vcvr-r3jv-pc5j",
+        "repo": "vercel/next.js",
+        "published": "2026-09-22",
+        "severity": "critical",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-vcvr-r3jv-pc5j",
+        "summary": "Remote Code Execution in next/og ImageResponse"
+      },
+      {
+        "id": "GHSA-3w37-wq28-93x7",
+        "repo": "vercel/next.js",
+        "published": "2026-09-30",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-3w37-wq28-93x7",
+        "summary": "Pending `use cache` fill can leak Draft Mode content into regular responses and persisted pages"
+      },
+      {
+        "id": "GHSA-cjq9-62q9-8jv4",
+        "repo": "vercel/next.js",
+        "published": "2026-09-30",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-cjq9-62q9-8jv4",
+        "summary": "Server-Side Request Forgery in Image Optimization"
+      },
+      {
+        "id": "GHSA-39w2-rjm5-chcv",
+        "repo": "vercel/next.js",
+        "published": "2026-09-30",
+        "severity": "low",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-39w2-rjm5-chcv",
+        "summary": "Information disclosure in the Next.js development server's Model Context Protocol endpoint"
+      },
+      {
+        "id": "GHSA-4jqv-mc3x-m676",
+        "repo": "vercel/next.js",
+        "published": "2026-09-30",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-4jqv-mc3x-m676",
+        "summary": "Cache poisoning of SSG and ISR pages in self-hosted Next.js applications"
+      },
+      {
+        "id": "GHSA-mcj8-r9mp-w47p",
+        "repo": "vercel/next.js",
+        "published": "2026-09-30",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-mcj8-r9mp-w47p",
+        "summary": "Cache poisoning in Next.js SSG/ISR rendering leads to cross-user content substitution and persistent denial of service"
+      },
+      {
+        "id": "GHSA-f87g-xv8r-7p7x",
+        "repo": "vercel/next.js",
+        "published": "2026-09-30",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-f87g-xv8r-7p7x",
+        "summary": "Information disclosure in Next.js App Router metadata image routes via dynamicParams bypass"
+      },
+      {
+        "id": "GHSA-2xp9-vwfh-vxw4",
+        "repo": "vercel/next.js",
+        "published": "2026-08-25",
+        "severity": "critical",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-2xp9-vwfh-vxw4",
+        "summary": "Unauthenticated Remote Code Execution in Image Optimization API when AVIF files are used"
+      },
+      {
+        "id": "GHSA-p293-qw3h-jr36",
+        "repo": "vercel/next.js",
+        "published": "2026-08-25",
+        "severity": "critical",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-p293-qw3h-jr36",
+        "summary": "Unauthenticated Remote Code Execution on windows-hosted servers"
+      },
+      {
+        "id": "GHSA-p9j2-gv94-2wf4",
+        "repo": "vercel/next.js",
+        "published": "2026-07-21",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-p9j2-gv94-2wf4",
+        "summary": "Server-Side Request Forgery in rewrites via attacker-controlled destination hostname"
+      },
+      {
+        "id": "GHSA-4c39-4ccg-62r3",
+        "repo": "vercel/next.js",
+        "published": "2026-07-21",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-4c39-4ccg-62r3",
+        "summary": "Unbounded Server Action payload in Edge runtime"
+      },
+      {
+        "id": "GHSA-89xv-2m56-2m9x",
+        "repo": "vercel/next.js",
+        "published": "2026-07-21",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-89xv-2m56-2m9x",
+        "summary": "Server-Side Request Forgery in Server Actions on custom servers"
+      },
+      {
+        "id": "GHSA-68g3-v927-f742",
+        "repo": "vercel/next.js",
+        "published": "2026-07-21",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-68g3-v927-f742",
+        "summary": "Cache confusion of response bodies for requests with bodies"
+      },
+      {
+        "id": "GHSA-6gpp-xcg3-4w24",
+        "repo": "vercel/next.js",
+        "published": "2026-07-21",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-6gpp-xcg3-4w24",
+        "summary": "Middleware / Proxy bypass in App Router applications using Turbopack and single locale"
+      },
+      {
+        "id": "GHSA-m99w-x7hq-7vfj",
+        "repo": "vercel/next.js",
+        "published": "2026-07-21",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-m99w-x7hq-7vfj",
+        "summary": "Denial of Service in App Router using Server Actions"
+      },
+      {
+        "id": "GHSA-4633-3j49-mh5q",
+        "repo": "vercel/next.js",
+        "published": "2026-07-21",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-4633-3j49-mh5q",
+        "summary": "Cache confusion of response bodies for requests with bodies containing invalid UTF-8 byte sequences"
+      },
+      {
+        "id": "GHSA-q8wf-6r8g-63ch",
+        "repo": "vercel/next.js",
+        "published": "2026-07-21",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-q8wf-6r8g-63ch",
+        "summary": "Denial of Service in the Image Optimization API using SVGs"
+      },
+      {
+        "id": "GHSA-955p-x3mx-jcvp",
+        "repo": "vercel/next.js",
+        "published": "2026-07-21",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-955p-x3mx-jcvp",
+        "summary": "Unauthenticated disclosure of internal Server Function endpoints"
+      },
+      {
+        "id": "GHSA-26hh-7cqf-hhc6",
+        "repo": "vercel/next.js",
+        "published": "2026-05-07",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-26hh-7cqf-hhc6",
+        "summary": "Middleware / Proxy bypass in App Router applications via segment-prefetch routes - Incomplete Fix Follow-Up"
+      },
+      {
+        "id": "GHSA-267c-6grr-h53f",
+        "repo": "vercel/next.js",
+        "published": "2026-05-06",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-267c-6grr-h53f",
+        "summary": "Middleware / Proxy bypass in App Router applications via segment-prefetch routes"
+      },
+      {
+        "id": "GHSA-ffhc-5mcf-pf4q",
+        "repo": "vercel/next.js",
+        "published": "2026-05-06",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-ffhc-5mcf-pf4q",
+        "summary": "Cross-site scripting in App Router applications using CSP nonces"
+      },
+      {
+        "id": "GHSA-vfv6-92ff-j949",
+        "repo": "vercel/next.js",
+        "published": "2026-05-06",
+        "severity": "low",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-vfv6-92ff-j949",
+        "summary": "Cache poisoning via collisions in React Server Component cache-busting"
+      },
+      {
+        "id": "GHSA-gx5p-jg67-6x7h",
+        "repo": "vercel/next.js",
+        "published": "2026-05-06",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-gx5p-jg67-6x7h",
+        "summary": "Cross-site scripting in beforeInteractive scripts with untrusted input"
+      },
+      {
+        "id": "GHSA-mg66-mrh9-m8jx",
+        "repo": "vercel/next.js",
+        "published": "2026-05-06",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-mg66-mrh9-m8jx",
+        "summary": "Denial of Service via connection exhaustion in applications using Cache Components"
+      },
+      {
+        "id": "GHSA-492v-c6pp-mqqv",
+        "repo": "vercel/next.js",
+        "published": "2026-05-06",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-492v-c6pp-mqqv",
+        "summary": "Middleware / Proxy bypass through dynamic route parameter injection"
+      },
+      {
+        "id": "GHSA-h64f-5h5j-jqjh",
+        "repo": "vercel/next.js",
+        "published": "2026-05-06",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-h64f-5h5j-jqjh",
+        "summary": "Denial of Service in the Image Optimization API"
+      },
+      {
+        "id": "GHSA-c4j6-fc7j-m34r",
+        "repo": "vercel/next.js",
+        "published": "2026-05-06",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-c4j6-fc7j-m34r",
+        "summary": "Server-side request forgery in applications using WebSocket upgrades"
+      },
+      {
+        "id": "GHSA-wfc6-r584-vfw7",
+        "repo": "vercel/next.js",
+        "published": "2026-05-06",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-wfc6-r584-vfw7",
+        "summary": "Cache poisoning in React Server Component responses"
+      },
+      {
+        "id": "GHSA-36qx-fr4f-26g5",
+        "repo": "vercel/next.js",
+        "published": "2026-05-06",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-36qx-fr4f-26g5",
+        "summary": "Middleware / Proxy bypass in Pages Router applications using i18n"
+      },
+      {
+        "id": "GHSA-8h8q-6873-q5fj",
+        "repo": "vercel/next.js",
+        "published": "2026-05-06",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-8h8q-6873-q5fj",
+        "summary": "Denial of Service with Server Components"
+      },
+      {
+        "id": "GHSA-3g8h-86w9-wvmq",
+        "repo": "vercel/next.js",
+        "published": "2026-05-06",
+        "severity": "low",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-3g8h-86w9-wvmq",
+        "summary": "Middleware / Proxy redirects can be cache-poisoned"
+      },
+      {
+        "id": "GHSA-q4gf-8mx6-v5v3",
+        "repo": "vercel/next.js",
+        "published": "2026-04-08",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-q4gf-8mx6-v5v3",
+        "summary": "Denial of Service with Server Components"
+      },
+      {
+        "id": "GHSA-3x4c-7xq6-9pq8",
+        "repo": "vercel/next.js",
+        "published": "2026-03-16",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-3x4c-7xq6-9pq8",
+        "summary": "Unbounded next/image disk cache growth can exhaust storage"
+      },
+      {
+        "id": "GHSA-mq59-m269-xvcx",
+        "repo": "vercel/next.js",
+        "published": "2026-03-16",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-mq59-m269-xvcx",
+        "summary": "null origin can bypass Server Actions CSRF checks"
+      },
+      {
+        "id": "GHSA-jcc7-9wpm-mj36",
+        "repo": "vercel/next.js",
+        "published": "2026-03-16",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-jcc7-9wpm-mj36",
+        "summary": "Origin: null can bypass allowedDevOrigins protections for internal dev endpoints"
+      },
+      {
+        "id": "GHSA-h27x-g6w4-24gq",
+        "repo": "vercel/next.js",
+        "published": "2026-03-16",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-h27x-g6w4-24gq",
+        "summary": "Unbounded postponed resume buffering can lead to DoS"
+      },
+      {
+        "id": "GHSA-ggv3-7p47-pfv8",
+        "repo": "vercel/next.js",
+        "published": "2026-03-16",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-ggv3-7p47-pfv8",
+        "summary": "HTTP request smuggling in rewrites"
+      },
+      {
+        "id": "GHSA-9g9p-9gw9-jx7f",
+        "repo": "vercel/next.js",
+        "published": "2026-01-26",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-9g9p-9gw9-jx7f",
+        "summary": "Denial of Service in Image Optimizer"
+      },
+      {
+        "id": "GHSA-5f7q-jpqc-wp7h",
+        "repo": "vercel/next.js",
+        "published": "2026-01-26",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-5f7q-jpqc-wp7h",
+        "summary": "Denial of Service in Partial Pre Rendering"
+      },
+      {
+        "id": "GHSA-h25m-26qc-wcjf",
+        "repo": "vercel/next.js",
+        "published": "2026-01-26",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-h25m-26qc-wcjf",
+        "summary": "Denial of Service with Server Components"
+      },
+      {
+        "id": "GHSA-5j59-xgg2-r9c4",
+        "repo": "vercel/next.js",
+        "published": "2025-12-11",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-5j59-xgg2-r9c4",
+        "summary": "Denial of Service with Server Components - Incomplete Fix Follow-Up"
+      },
+      {
+        "id": "GHSA-w37m-7fhw-fmv9",
+        "repo": "vercel/next.js",
+        "published": "2025-12-11",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-w37m-7fhw-fmv9",
+        "summary": "Server Actions Source Code Exposure "
+      },
+      {
+        "id": "GHSA-mwv6-3258-q52c",
+        "repo": "vercel/next.js",
+        "published": "2025-12-11",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-mwv6-3258-q52c",
+        "summary": "Denial of Service with Server Components"
+      },
+      {
+        "id": "GHSA-9qr9-h5gf-34mp",
+        "repo": "vercel/next.js",
+        "published": "2025-12-03",
+        "severity": "critical",
+        "within_12m": true,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-9qr9-h5gf-34mp",
+        "summary": "RCE in React Server Components"
+      },
+      {
+        "id": "GHSA-4342-x723-ch2f",
+        "repo": "vercel/next.js",
+        "published": "2025-08-29",
+        "severity": "medium",
+        "within_12m": false,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-4342-x723-ch2f",
+        "summary": "Improper Middleware Redirect Handling Leads to SSRF"
+      },
+      {
+        "id": "GHSA-xv57-4mr9-wg8v",
+        "repo": "vercel/next.js",
+        "published": "2025-08-29",
+        "severity": "medium",
+        "within_12m": false,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-xv57-4mr9-wg8v",
+        "summary": "Content Injection for Image Optimization"
+      },
+      {
+        "id": "GHSA-g5qg-72qw-gw5v",
+        "repo": "vercel/next.js",
+        "published": "2025-08-29",
+        "severity": "medium",
+        "within_12m": false,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-g5qg-72qw-gw5v",
+        "summary": "Cache Key Confusion for Image Optimization API Routes"
+      },
+      {
+        "id": "GHSA-r2fc-ccr8-96c4",
+        "repo": "vercel/next.js",
+        "published": "2025-07-03",
+        "severity": "low",
+        "within_12m": false,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-r2fc-ccr8-96c4",
+        "summary": "Cache poisoning due to omission of Vary header"
+      },
+      {
+        "id": "GHSA-67rr-84xm-4c7r",
+        "repo": "vercel/next.js",
+        "published": "2025-07-03",
+        "severity": "high",
+        "within_12m": false,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-67rr-84xm-4c7r",
+        "summary": "DoS via cache poisoning "
+      },
+      {
+        "id": "GHSA-223j-4rm8-mrmf",
+        "repo": "vercel/next.js",
+        "published": "2025-04-02",
+        "severity": "low",
+        "within_12m": false,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-223j-4rm8-mrmf",
+        "summary": "x-middleware-subrequest-id may be leaked to external hosts"
+      },
+      {
+        "id": "GHSA-qpjv-v59x-3qc4",
+        "repo": "vercel/next.js",
+        "published": "2025-05-14",
+        "severity": "low",
+        "within_12m": false,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-qpjv-v59x-3qc4",
+        "summary": "Race condition to Cache Poisoning "
+      },
+      {
+        "id": "GHSA-f82v-jwr5-mffw",
+        "repo": "vercel/next.js",
+        "published": "2025-03-21",
+        "severity": "critical",
+        "within_12m": false,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-f82v-jwr5-mffw",
+        "summary": "Authorization Bypass in Next.js Middleware"
+      },
+      {
+        "id": "GHSA-3h52-269p-cp9r",
+        "repo": "vercel/next.js",
+        "published": "2025-05-28",
+        "severity": "low",
+        "within_12m": false,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-3h52-269p-cp9r",
+        "summary": "Information exposure in Next.js dev server due to lack of origin verification"
+      },
+      {
+        "id": "GHSA-7m27-7ghc-44w9",
+        "repo": "vercel/next.js",
+        "published": "2025-01-03",
+        "severity": "medium",
+        "within_12m": false,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-7m27-7ghc-44w9",
+        "summary": "Denial of Service (DoS) with Server Actions"
+      },
+      {
+        "id": "GHSA-7gfc-8cq8-jh5f",
+        "repo": "vercel/next.js",
+        "published": "2024-12-17",
+        "severity": "high",
+        "within_12m": false,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-7gfc-8cq8-jh5f",
+        "summary": "Authorization bypass in Next.js"
+      },
+      {
+        "id": "GHSA-g77x-44xx-532m",
+        "repo": "vercel/next.js",
+        "published": "2024-10-14",
+        "severity": "medium",
+        "within_12m": false,
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-g77x-44xx-532m",
+        "summary": "Denial of Service condition in Next.js image optimization"
+      },
+      {
+        "id": "GHSA-9r75-g2cr-3h76",
+        "repo": "vercel/workflow",
+        "published": "2026-03-05",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/workflow/security/advisories/GHSA-9r75-g2cr-3h76",
+        "summary": "Webhook Creation with Predictable User-Specified Tokens"
+      },
+      {
+        "id": "GHSA-7wjf-49rm-77gx",
+        "repo": "vercel/vercel",
+        "published": "2026-08-28",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/vercel/vercel/security/advisories/GHSA-7wjf-49rm-77gx",
+        "summary": "Arbitrary Vercel KV key read, overwrite, and delete via forged session cookie in @vercel/react-router"
+      },
+      {
+        "id": "GHSA-pgf8-2hgj-grqg",
+        "repo": "vercel/vercel",
+        "published": "2026-04-30",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/vercel/security/advisories/GHSA-pgf8-2hgj-grqg",
+        "summary": "Non-interactive mode includes CLI arguments in suggested command output"
+      },
+      {
+        "id": "GHSA-3qcw-2rhx-2726",
+        "repo": "vercel/turborepo",
+        "published": "2026-05-14",
+        "severity": "low",
+        "within_12m": true,
+        "url": "https://github.com/vercel/turborepo/security/advisories/GHSA-3qcw-2rhx-2726",
+        "summary": "Unexpected local code execution during Yarn Berry detection"
+      },
+      {
+        "id": "GHSA-hcf7-66rw-9f5r",
+        "repo": "vercel/turborepo",
+        "published": "2026-05-14",
+        "severity": "low",
+        "within_12m": true,
+        "url": "https://github.com/vercel/turborepo/security/advisories/GHSA-hcf7-66rw-9f5r",
+        "summary": "Login callback CSRF/session fixation"
+      },
+      {
+        "id": "GHSA-5xc8-49mv-x4mm",
+        "repo": "vercel/turborepo",
+        "published": "2026-05-14",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/vercel/turborepo/security/advisories/GHSA-5xc8-49mv-x4mm",
+        "summary": "Turborepo VSCode Extension command injection"
+      },
+      {
+        "id": "GHSA-4mqq-99j3-3hmv",
+        "repo": "vercel/ai",
+        "published": "2026-09-28",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/vercel/ai/security/advisories/GHSA-4mqq-99j3-3hmv",
+        "summary": "AI SDK Harness session resume can expose host credentials to sandboxed code"
+      },
+      {
+        "id": "GHSA-222v-gj5h-ff73",
+        "repo": "vercel/ai",
+        "published": "2026-08-20",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/vercel/ai/security/advisories/GHSA-222v-gj5h-ff73",
+        "summary": "Sandbox path traversal in Cline harness file tools"
+      },
+      {
+        "id": "GHSA-vmqp-7rwf-cq3w",
+        "repo": "vercel/ai",
+        "published": "2026-08-14",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/ai/security/advisories/GHSA-vmqp-7rwf-cq3w",
+        "summary": "AI SDK OpenCode Harness Unauthenticated Loopback Control API"
+      },
+      {
+        "id": "GHSA-g48p-5rr5-8rgq",
+        "repo": "vercel/ai",
+        "published": "2026-07-20",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/ai/security/advisories/GHSA-g48p-5rr5-8rgq",
+        "summary": "AI SDK OpenCode Harness Tool Relay Authorization Bypass"
+      },
+      {
+        "id": "GHSA-qw9h-448j-6rph",
+        "repo": "vercel/ai",
+        "published": "2026-07-20",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/ai/security/advisories/GHSA-qw9h-448j-6rph",
+        "summary": "AI SDK Codex Harness Tool Relay Authorization Bypass"
+      },
+      {
+        "id": "GHSA-wx4j-mvgx-mqwp",
+        "repo": "vercel/satori",
+        "published": "2026-09-22",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/vercel/satori/security/advisories/GHSA-wx4j-mvgx-mqwp",
+        "summary": "Improper escaping in Satori-generated SVG"
+      }
+    ]
+  }
+}

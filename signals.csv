@@ -1,0 +1,71 @@
+Company,Criterion,Weight,Value (0/0.5/1),Points,Evidence,Source URL
+Grafana Labs,C1 Hiring,20,1,20,"3 AppSec/ProdSec role(s): Engineering Manager - Grafana Application Security | EMEA | (Remote, Ireland); Engineering Manager - Grafana Application Security | EMEA | (Remote, Spain)",https://job-boards.greenhouse.io/grafanalabs/jobs/6211672004
+Grafana Labs,C2 Pipeline risk,15,1,15,"poutine: exploitable findings in 4/29 scanned repos (22 untrusted_checkout_exec, 2 confused_deputy_auto_merge); 29/30 sampled repos run Actions",https://github.com/grafana/github-api-commit-action/tree/HEAD/.github/workflows
+Grafana Labs,C3 Exposure,15,1,15,May 2026: GitHub codebase stolen after TanStack npm / Mini Shai-Hulud compromise; Apr 2025 pwn-request GitHub Action leaked tokens,https://grafana.com/blog/grafana-labs-security-update-latest-on-tanstack-npm-supply-chain-ransomware-incident/
+Grafana Labs,C4 New sec leader,15,0,0,CISO Joe McManus in seat; no new leader in 12m found,https://grafana.com/author/joe-mcmanus/
+Grafana Labs,C5 Firmographic,15,1,15,"~1,900 employees (LeadIQ est.), B2B observability, 70% of Fortune 50",https://leadiq.com/c/grafana-labs/5a1d9ddf23000053008dc84c
+Grafana Labs,C6 Compliance,10,1,10,"trust.grafana.com: SOC 2 II, ISO 27001, FedRAMP High",https://trust.grafana.com/
+Grafana Labs,C7 Funding,10,0.5,5.0,Secondary (Ontario Teachers') Sep 30 2025; last primary $270M Aug 2024,https://grafana.com/press/2025/09/30/grafana-labs-surpasses-400m-arr-and-7000-customers-gains-new-investors-to-accelerate-global-expansion/
+Vercel,C1 Hiring,20,1,20,1 AppSec/ProdSec role(s): Product Security Engineer,https://job-boards.greenhouse.io/vercel/jobs/6102343004
+Vercel,C2 Pipeline risk,15,1,15,"poutine: exploitable findings in 5/27 scanned repos (14 untrusted_checkout_exec, 6 injection); 27/30 sampled repos run Actions",https://github.com/vercel/microfrontends/tree/HEAD/.github/workflows
+Vercel,C3 Exposure,15,1,15,"24 high/critical GHSA in last 12m, latest 2026-09-30",https://github.com/vercel/next.js/security/advisories/GHSA-cjq9-62q9-8jv4
+Vercel,C4 New sec leader,15,0.5,7.5,Talha Tariq joined as CTO (Security) Oct 15 2025 (~11.5 months),https://vercel.com/blog/talha-tariq-joins-vercel-as-cto-security
+Vercel,C5 Firmographic,15,1,15,"~885 employees (Revelio, Mar 2026), B2B platform, enterprise customers",https://www.reveliolabs.com/companies/vercel/employees
+Vercel,C6 Compliance,10,1,10,"security.vercel.com: SOC 2 II, ISO 27001, PCI, HIPAA, DORA/NIS2",https://security.vercel.com/
+Vercel,C7 Funding,10,0.5,5.0,"Series F $300M, Sep 30 2025",https://vercel.com/blog/series-f
+Sentry,C1 Hiring,20,1,20,"2 AppSec/ProdSec role(s): Security Engineer, Application Security; Security Engineer, Application Security",https://jobs.ashbyhq.com/sentry/dc1e73a4-3cb8-4269-82b5-fdc6495b7e83
+Sentry,C2 Pipeline risk,15,1,15,"poutine: exploitable findings in 3/30 scanned repos (2 untrusted_checkout_exec, 1 if_always_true, 1 injection); 30/30 sampled repos run Actions",https://github.com/getsentry/sentry-docs/tree/HEAD/.github/workflows
+Sentry,C3 Exposure,15,1,15,"6 high/critical GHSA in last 12m, latest 2026-08-17",https://github.com/getsentry/sentry/security/advisories/GHSA-rrcx-889m-5jj5
+Sentry,C4 New sec leader,15,0,0,No named CISO; security directed by the CTO,https://sentry.io/security/
+Sentry,C5 Firmographic,15,1,15,"~456 employees (LeadIQ, Aug 2026), B2B dev tooling",https://leadiq.com/c/sentry/5a1d9d492300005b008d22de/employee-directory
+Sentry,C6 Compliance,10,0.5,5.0,sentry.io/trust: SOC 2 II + ISO 27001; no regulated/FedRAMP,https://sentry.io/trust/
+Sentry,C7 Funding,10,0,0,Last round Series E May 2022,https://sentry.io/about/press-releases/
+Supabase,C1 Hiring,20,0.5,10.0,1 adjacent security role(s): Platform Security Engineer (AMER/APAC),https://jobs.ashbyhq.com/supabase/8fa1c7a0-a85c-4562-a1f5-4dd22cadae27
+Supabase,C2 Pipeline risk,15,1,15,"poutine: exploitable findings in 4/30 scanned repos (32 untrusted_checkout_exec, 3 injection); 30/30 sampled repos run Actions",https://github.com/supabase/cli/tree/HEAD/.github/workflows
+Supabase,C3 Exposure,15,1,15,"5 high/critical GHSA in last 12m, latest 2026-09-24",https://github.com/supabase/realtime/security/advisories/GHSA-9vjf-j9f7-j42c
+Supabase,C4 New sec leader,15,0,0,CISO Bil Harmer in role since at least Oct 2025,https://www.aikido.dev/blog/security-masterclass-supabase-and-lovable
+Supabase,C5 Firmographic,15,1,15,"~406 employees (Revelio, Mar 2026), B2B backend platform",https://www.reveliolabs.com/companies/supabase/employees
+Supabase,C6 Compliance,10,1,10,"trust.supabase.io: SOC 2 II, ISO 27001, HIPAA, PCI",https://trust.supabase.io/
+Supabase,C7 Funding,10,1,10,"Series F $500M at $10B, Jun 2026",https://supabase.com/blog/supabase-series-f
+Pendo,C1 Hiring,20,0,0,0 security roles of 22 open,https://boards-api.greenhouse.io/v1/boards/pendo/jobs
+Pendo,C2 Pipeline risk,15,0,0,"0/27 sampled public repos run Actions, so nothing to scan",https://github.com/pendo-io
+Pendo,C3 Exposure,15,0,0,"Jun 2026 Klue breach reached Pendo's Salesforce CRM via a vendor integration: a SaaS-integration incident, not a software supply-chain one",https://www.pendo.io/pendo-blog/security-update-klue-breach-and-impact-on-pendo/
+Pendo,C4 New sec leader,15,0,0,CISO Chuck Kesler since Nov 2018; no new security leader found,https://www.pendo.io/about/
+Pendo,C5 Firmographic,15,1,15,"~850-1,000 employees (company 850+, Revelio 996 Mar 2026), B2B product-analytics SaaS",https://www.pendo.io/about/
+Pendo,C6 Compliance,10,1,10,"trust.pendo.io: SOC 2 II, ISO 27001, HIPAA, PCI; TX-RAMP + GovRAMP for public sector",https://www.pendo.io/trust/
+Pendo,C7 Funding,10,0,0,Last equity: Series F $150M Jul 2021; $100M credit facility Sep 2025 is debt,https://www.pendo.io/news/pendo-secures-100-m-credit-facility-to-accelerate-investments-in-ai/
+Tailscale,C1 Hiring,20,0,0,0 security roles of 52 open,https://boards-api.greenhouse.io/v1/boards/tailscale/jobs
+Tailscale,C2 Pipeline risk,15,0,0,poutine: exploitable findings in 0/27 scanned repos (none); 27/30 sampled repos run Actions,https://github.com/tailscale
+Tailscale,C3 Exposure,15,0,0,no high/critical GHSA on sampled repos in 24m,
+Tailscale,C4 New sec leader,15,0,0,No CISO; security policies owned by the COO,https://tailscale.com/security-policies
+Tailscale,C5 Firmographic,15,1,15,"~250-290 employees (third-party est.), B2B networking",https://tailscale.com/
+Tailscale,C6 Compliance,10,0.5,5.0,tailscale.com/security: SOC 2 II only; no trust center,https://tailscale.com/security
+Tailscale,C7 Funding,10,0.5,5.0,"Series C $160M, Apr 2025",https://tailscale.com/blog/series-c
+PostHog,C1 Hiring,20,0.5,10.0,1 adjacent security role(s): Security Engineer ,https://jobs.ashbyhq.com/posthog/36d5ce14-851c-450f-879a-45cbb896225e
+PostHog,C2 Pipeline risk,15,1,15,"poutine: exploitable findings in 3/24 scanned repos (6 untrusted_checkout_exec, 1 confused_deputy_auto_merge); 24/30 sampled repos run Actions",https://github.com/PostHog/posthog/tree/HEAD/.github/workflows
+PostHog,C3 Exposure,15,1,15,Nov 24 2025: Shai-Hulud 2.0 shipped malicious posthog-js/-node to npm via a pull_request_target workflow,https://posthog.com/blog/nov-24-shai-hulud-attack-post-mortem
+PostHog,C4 New sec leader,15,0,0,No named security leader,https://posthog.com/handbook/company/security
+PostHog,C5 Firmographic,15,1,15,"~212 employees (Revelio, Mar 2026), B2B dev platform",https://www.reveliolabs.com/companies/posthog/employees
+PostHog,C6 Compliance,10,1,10,"trust.posthog.com: SOC 2 II, HIPAA",https://trust.posthog.com
+PostHog,C7 Funding,10,0.5,5.0,"Series E $75M, Sep 29 2025 (just outside 12m)",https://posthog.com/blog/series-e
+Datadog,C1 Hiring,20,1,20,2 AppSec/ProdSec role(s): Senior Application Security Engineer; Staff Application Security Engineer,https://careers.datadoghq.com/detail/8230663/?gh_jid=8230663
+Datadog,C2 Pipeline risk,15,1,15,"poutine: exploitable findings in 14/30 scanned repos (265 untrusted_checkout_exec, 4 injection); 30/30 sampled repos run Actions",https://github.com/DataDog/datadog-api-client-go/tree/HEAD/.github/workflows
+Datadog,C3 Exposure,15,1,15,"11 high/critical GHSA in last 12m, latest 2026-07-07",https://github.com/DataDog/datadog-agent/security/advisories/GHSA-h8qx-4jh5-pf43
+Datadog,C4 New sec leader,15,0,0,CISO Emilio Escobar ~8 years in seat,https://events.datadoghq.com/summits/datadog-summit-chicago/speakers/
+Datadog,C5 Firmographic,15,0.5,7.5,"~8,100 employees (FY2025 10-K)",https://www.sec.gov/Archives/edgar/data/1561550/000162828026008819/ddog-20251231.htm
+Datadog,C6 Compliance,10,1,10,"trust.datadoghq.com: FedRAMP, SOC 2, ISO",https://trust.datadoghq.com
+Datadog,C7 Funding,10,0,0,Public since 2019,https://www.sec.gov/Archives/edgar/data/1561550/000162828026008819/ddog-20251231.htm
+Snyk,C1 Hiring,20,1,20,1 AppSec/ProdSec role(s): Senior Product Security Engineer,https://jobs.ashbyhq.com/snyk/507a3707-d6bd-48c4-800f-429ecf40769e
+Snyk,C2 Pipeline risk,15,0.5,7.5,poutine: exploitable findings in 2/27 scanned repos (2 injection); 27/30 sampled repos run Actions,https://github.com/snyk/snyk-api-import/tree/HEAD/.github/workflows
+Snyk,C3 Exposure,15,0,0,no high/critical GHSA on sampled repos in 24m,
+Snyk,C4 New sec leader,15,0,0,No new security leader announced,https://snyk.io/security/
+Snyk,C5 Firmographic,15,1,15,"~1,500 employees (Boston Globe, Jul 2026)",https://www.bostonglobe.com/2026/07/14/business/rapid7-layoffs-snyk-cybersecurity-jobs/
+Snyk,C6 Compliance,10,1,10,"trust.snyk.io: SOC 2 II, ISO 27001, FedRAMP Moderate",https://trust.snyk.io
+Snyk,C7 Funding,10,0,0,Last round Series G Dec 2022,https://www.securityweek.com/snyk-raises-1965-million-74-billion-valuation/
+JPMorgan Chase,C1 Hiring,20,1,20,"Lead Security Engineer - Application Security (Dublin, posted 2026-09-01); ~25 Lead Security Engineer reqs Jul-Sep",https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780990
+JPMorgan Chase,C2 Pipeline risk,15,0.5,7.5,poutine: exploitable findings in 2/16 scanned repos (10 untrusted_checkout_exec); 16/22 sampled repos run Actions,https://github.com/jpmorganchase/mosaic/tree/HEAD/.github/workflows
+JPMorgan Chase,C3 Exposure,15,0,0,no high/critical GHSA on sampled repos in 24m,
+JPMorgan Chase,C4 New sec leader,15,0,0,Global CISO Pat Opet; no change found,https://www.cybersecuritydive.com/news/jpmorgan-chase-ciso--software-supply-chain-security/746476/
+JPMorgan Chase,C5 Firmographic,15,0,0,"318,512 employees (FY2025 10-K)",https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm
+JPMorgan Chase,C6 Compliance,10,0,0,No public trust center verified,
+JPMorgan Chase,C7 Funding,10,0,0,Public company,

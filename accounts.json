@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "grafana",
+    "name": "Grafana Labs",
+    "domain": "grafana.com",
+    "github": "grafana",
+    "ats": "greenhouse",
+    "ats_slug": "grafanalabs"
+  },
+  {
+    "slug": "vercel",
+    "name": "Vercel",
+    "domain": "vercel.com",
+    "github": "vercel",
+    "ats": "greenhouse",
+    "ats_slug": "vercel"
+  },
+  {
+    "slug": "sentry",
+    "name": "Sentry",
+    "domain": "sentry.io",
+    "github": "getsentry",
+    "ats": "ashby",
+    "ats_slug": "sentry"
+  },
+  {
+    "slug": "supabase",
+    "name": "Supabase",
+    "domain": "supabase.com",
+    "github": "supabase",
+    "ats": "ashby",
+    "ats_slug": "supabase"
+  },
+  {
+    "slug": "pendo",
+    "name": "Pendo",
+    "domain": "pendo.io",
+    "github": "pendo-io",
+    "ats": "greenhouse",
+    "ats_slug": "pendo"
+  },
+  {
+    "slug": "tailscale",
+    "name": "Tailscale",
+    "domain": "tailscale.com",
+    "github": "tailscale",
+    "ats": "greenhouse",
+    "ats_slug": "tailscale"
+  },
+  {
+    "slug": "posthog",
+    "name": "PostHog",
+    "domain": "posthog.com",
+    "github": "PostHog",
+    "ats": "ashby",
+    "ats_slug": "posthog"
+  },
+  {
+    "slug": "datadog",
+    "name": "Datadog",
+    "domain": "datadoghq.com",
+    "github": "DataDog",
+    "ats": "greenhouse",
+    "ats_slug": "datadog"
+  },
+  {
+    "slug": "snyk",
+    "name": "Snyk",
+    "domain": "snyk.io",
+    "github": "snyk",
+    "ats": "ashby",
+    "ats_slug": "snyk"
+  },
+  {
+    "slug": "jpmc",
+    "name": "JPMorgan Chase",
+    "domain": "jpmorganchase.com",
+    "github": "jpmorganchase",
+    "ats": null,
+    "ats_slug": null
+  }
+]

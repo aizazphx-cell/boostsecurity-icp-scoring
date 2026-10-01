@@ -1,0 +1,55 @@
+{
+  "name": "Tailscale",
+  "collected_at": "2026-10-01",
+  "jobs": {
+    "board": "https://boards-api.greenhouse.io/v1/boards/tailscale/jobs",
+    "total_open": 52,
+    "strong": [],
+    "partial": []
+  },
+  "github": {
+    "org_url": "https://github.com/tailscale",
+    "public_repos_total": 138,
+    "sampled": 30,
+    "repos_with_actions": [
+      "tailscale/aperture-recipes",
+      "tailscale/tailscale",
+      "tailscale/tb",
+      "tailscale/setec",
+      "tailscale/tailscale-android",
+      "tailscale/tailscale-rs",
+      "tailscale/terraform-provider-tailscale",
+      "tailscale/tailcat",
+      "tailscale/aperture-cli",
+      "tailscale/tailscale-client-go-v2",
+      "tailscale/golink",
+      "tailscale/github-action",
+      "tailscale/issuebot",
+      "tailscale/web-client-prebuilt",
+      "tailscale/lokv",
+      "tailscale/gomodfs",
+      "tailscale/terms-and-conditions",
+      "tailscale/sqlite",
+      "tailscale/tmemes",
+      "tailscale/tailvisor",
+      "tailscale/tsidp",
+      "tailscale/mkctr",
+      "tailscale/squibble",
+      "tailscale/tskagent",
+      "tailscale/tailsql",
+      "tailscale/libtailscale",
+      "tailscale/tailcatchat"
+    ],
+    "advisories": [
+      {
+        "id": "GHSA-w496-344h-g2vv",
+        "repo": "tailscale/tailcat",
+        "published": "2026-09-02",
+        "severity": "low",
+        "within_12m": true,
+        "url": "https://github.com/tailscale/tailcat/security/advisories/GHSA-w496-344h-g2vv",
+        "summary": "tailcat 0.4.0's \"recv\" mode let senders overwrite files, test existence of files"
+      }
+    ]
+  }
+}

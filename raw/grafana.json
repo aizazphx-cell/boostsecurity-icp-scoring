@@ -1,0 +1,60 @@
+{
+  "name": "Grafana Labs",
+  "collected_at": "2026-10-01",
+  "jobs": {
+    "board": "https://boards-api.greenhouse.io/v1/boards/grafanalabs/jobs",
+    "total_open": 122,
+    "strong": [
+      [
+        "Engineering Manager - Grafana Application Security | EMEA | (Remote, Ireland)",
+        "https://job-boards.greenhouse.io/grafanalabs/jobs/6211672004"
+      ],
+      [
+        "Engineering Manager - Grafana Application Security | EMEA | (Remote, Spain)",
+        "https://job-boards.greenhouse.io/grafanalabs/jobs/6211674004"
+      ],
+      [
+        "Engineering Manager - Grafana Application Security | EMEA | (Remote, UK)",
+        "https://job-boards.greenhouse.io/grafanalabs/jobs/6211670004"
+      ]
+    ],
+    "partial": []
+  },
+  "github": {
+    "org_url": "https://github.com/grafana",
+    "public_repos_total": 588,
+    "sampled": 30,
+    "repos_with_actions": [
+      "grafana/synthetic-monitoring-agent",
+      "grafana/mimir",
+      "grafana/alloy-scenarios",
+      "grafana/grafana",
+      "grafana/grafanacon-custom-data-source-plugin-example",
+      "grafana/eslint-config-dbfe",
+      "grafana/ai-marketplace",
+      "grafana/faro-android-gradle-plugin",
+      "grafana/tempo",
+      "grafana/gcx",
+      "grafana/aws-workshop",
+      "grafana/collector-lambda-extension",
+      "grafana/loki",
+      "grafana/collector-configurator",
+      "grafana/docker-otel-lgtm",
+      "grafana/synthetic-monitoring-app",
+      "grafana/clusterurl",
+      "grafana/github-api-commit-action",
+      "grafana/clock-panel",
+      "grafana/pySigma-backend-loki",
+      "grafana/logs-drilldown",
+      "grafana/beyla",
+      "grafana/grafana-amazonprometheus-datasource",
+      "grafana/data-sources-ci-workflows",
+      "grafana/grafana-opentelemetry-java",
+      "grafana/grafana-pathfinder-app",
+      "grafana/metrics-drilldown",
+      "grafana/mcp-grafana",
+      "grafana/plugin-tools"
+    ],
+    "advisories": []
+  }
+}

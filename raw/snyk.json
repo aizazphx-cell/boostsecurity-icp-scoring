@@ -1,0 +1,50 @@
+{
+  "name": "Snyk",
+  "collected_at": "2026-10-01",
+  "jobs": {
+    "board": "https://api.ashbyhq.com/posting-api/job-board/snyk",
+    "total_open": 11,
+    "strong": [
+      [
+        "Senior Product Security Engineer",
+        "https://jobs.ashbyhq.com/snyk/507a3707-d6bd-48c4-800f-429ecf40769e"
+      ]
+    ],
+    "partial": []
+  },
+  "github": {
+    "org_url": "https://github.com/snyk",
+    "public_repos_total": 240,
+    "sampled": 30,
+    "repos_with_actions": [
+      "snyk/snyk-api-import",
+      "snyk/go-application-framework",
+      "snyk/cli",
+      "snyk/user-docs",
+      "snyk/snyk-eclipse-plugin",
+      "snyk/snyk-azure-pipelines-task",
+      "snyk/actions",
+      "snyk/skemium",
+      "snyk/studio-mcp",
+      "snyk/snyk-gradle-plugin",
+      "snyk/snyk-nuget-plugin",
+      "snyk/snyk-visual-studio-plugin",
+      "snyk/agent-scan",
+      "snyk/dotnet-deps-parser",
+      "snyk/cli-extension-dep-graph",
+      "snyk/snyk-apps-demo",
+      "snyk/snyk-docker-plugin",
+      "snyk/snyk-ls",
+      "snyk/snyk-to-html",
+      "snyk/scoop-snyk",
+      "snyk/teamcity-snyk-security-plugin",
+      "snyk/snyk-maven-plugin",
+      "snyk/saw-mcp",
+      "snyk/code-client-go",
+      "snyk/studio-recipes",
+      "snyk/artifactory-snyk-security-plugin",
+      "snyk/vscode-extension"
+    ],
+    "advisories": []
+  }
+}

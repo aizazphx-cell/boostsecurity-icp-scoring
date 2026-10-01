@@ -1,0 +1,250 @@
+{
+  "grafana": {
+    "name": "Grafana Labs",
+    "repos_scanned": 29,
+    "scan_errors": 0,
+    "findings_total": 329,
+    "by_level": {
+      "note": 127,
+      "warning": 178,
+      "error": 24
+    },
+    "by_rule": {
+      "github_action_from_unverified_creator_used": 113,
+      "pr_runs_on_self_hosted": 176,
+      "unverified_script_exec": 5,
+      "untrusted_checkout_exec": 22,
+      "unpinnable_action": 9,
+      "default_permissions_on_risky_events": 1,
+      "known_vulnerability_in_build_component": 1,
+      "confused_deputy_auto_merge": 2
+    },
+    "exploitable_findings": 24,
+    "exploitable_repos": [
+      "grafana/github-api-commit-action",
+      "grafana/grafana",
+      "grafana/mimir",
+      "grafana/tempo"
+    ]
+  },
+  "vercel": {
+    "name": "Vercel",
+    "repos_scanned": 27,
+    "scan_errors": 0,
+    "findings_total": 243,
+    "by_level": {
+      "note": 206,
+      "error": 14,
+      "warning": 23
+    },
+    "by_rule": {
+      "github_action_from_unverified_creator_used": 195,
+      "unpinnable_action": 9,
+      "unverified_script_exec": 2,
+      "untrusted_checkout_exec": 14,
+      "pr_runs_on_self_hosted": 4,
+      "known_vulnerability_in_build_component": 13,
+      "injection": 6
+    },
+    "exploitable_findings": 20,
+    "exploitable_repos": [
+      "vercel/microfrontends",
+      "vercel/next.js",
+      "vercel/repository-dispatch",
+      "vercel/turborepo",
+      "vercel/vercel"
+    ]
+  },
+  "sentry": {
+    "name": "Sentry",
+    "repos_scanned": 30,
+    "scan_errors": 0,
+    "findings_total": 361,
+    "by_level": {
+      "note": 330,
+      "warning": 28,
+      "error": 3
+    },
+    "by_rule": {
+      "unpinnable_action": 9,
+      "github_action_from_unverified_creator_used": 318,
+      "default_permissions_on_risky_events": 6,
+      "untrusted_checkout_exec": 2,
+      "unverified_script_exec": 3,
+      "pr_runs_on_self_hosted": 13,
+      "if_always_true": 1,
+      "known_vulnerability_in_build_component": 8,
+      "injection": 1
+    },
+    "exploitable_findings": 4,
+    "exploitable_repos": [
+      "getsentry/sentry-docs",
+      "getsentry/sentry-dotnet",
+      "getsentry/sentry-javascript"
+    ]
+  },
+  "supabase": {
+    "name": "Supabase",
+    "repos_scanned": 30,
+    "scan_errors": 0,
+    "findings_total": 507,
+    "by_level": {
+      "note": 368,
+      "warning": 107,
+      "error": 32
+    },
+    "by_rule": {
+      "github_action_from_unverified_creator_used": 364,
+      "pr_runs_on_self_hosted": 103,
+      "untrusted_checkout_exec": 32,
+      "unpinnable_action": 2,
+      "unverified_script_exec": 2,
+      "injection": 3,
+      "known_vulnerability_in_build_component": 1
+    },
+    "exploitable_findings": 35,
+    "exploitable_repos": [
+      "supabase/cli",
+      "supabase/etl",
+      "supabase/postgres",
+      "supabase/sdk"
+    ]
+  },
+  "pendo": {
+    "name": "Pendo",
+    "repos_scanned": 0,
+    "scan_errors": 0,
+    "findings_total": 0,
+    "by_level": {},
+    "by_rule": {},
+    "exploitable_findings": 0,
+    "exploitable_repos": []
+  },
+  "tailscale": {
+    "name": "Tailscale",
+    "repos_scanned": 27,
+    "scan_errors": 0,
+    "findings_total": 41,
+    "by_level": {
+      "warning": 7,
+      "note": 34
+    },
+    "by_rule": {
+      "known_vulnerability_in_build_component": 1,
+      "github_action_from_unverified_creator_used": 33,
+      "pr_runs_on_self_hosted": 6,
+      "unpinnable_action": 1
+    },
+    "exploitable_findings": 0,
+    "exploitable_repos": []
+  },
+  "posthog": {
+    "name": "PostHog",
+    "repos_scanned": 24,
+    "scan_errors": 0,
+    "findings_total": 395,
+    "by_level": {
+      "note": 309,
+      "error": 7,
+      "warning": 79
+    },
+    "by_rule": {
+      "unpinnable_action": 8,
+      "unverified_script_exec": 6,
+      "untrusted_checkout_exec": 6,
+      "github_action_from_unverified_creator_used": 295,
+      "pr_runs_on_self_hosted": 78,
+      "default_permissions_on_risky_events": 1,
+      "confused_deputy_auto_merge": 1
+    },
+    "exploitable_findings": 7,
+    "exploitable_repos": [
+      "PostHog/posthog",
+      "PostHog/posthog-js",
+      "PostHog/posthog-kmp"
+    ]
+  },
+  "datadog": {
+    "name": "Datadog",
+    "repos_scanned": 30,
+    "scan_errors": 0,
+    "findings_total": 534,
+    "by_level": {
+      "error": 265,
+      "note": 254,
+      "warning": 15
+    },
+    "by_rule": {
+      "untrusted_checkout_exec": 265,
+      "github_action_from_unverified_creator_used": 225,
+      "unpinnable_action": 18,
+      "default_permissions_on_risky_events": 2,
+      "unverified_script_exec": 11,
+      "injection": 4,
+      "known_vulnerability_in_build_component": 3,
+      "pr_runs_on_self_hosted": 6
+    },
+    "exploitable_findings": 269,
+    "exploitable_repos": [
+      "DataDog/datadog-api-client-go",
+      "DataDog/datadog-api-client-java",
+      "DataDog/datadog-api-client-python",
+      "DataDog/datadog-api-client-ruby",
+      "DataDog/datadog-api-client-rust",
+      "DataDog/datadog-api-client-typescript",
+      "DataDog/dd-trace-dotnet",
+      "DataDog/dd-trace-go",
+      "DataDog/dd-trace-java",
+      "DataDog/dd-trace-py",
+      "DataDog/documentation",
+      "DataDog/integrations-core",
+      "DataDog/java-profiler",
+      "DataDog/system-tests"
+    ]
+  },
+  "snyk": {
+    "name": "Snyk",
+    "repos_scanned": 27,
+    "scan_errors": 0,
+    "findings_total": 107,
+    "by_level": {
+      "note": 93,
+      "warning": 14
+    },
+    "by_rule": {
+      "github_action_from_unverified_creator_used": 49,
+      "injection": 2,
+      "known_vulnerability_in_build_component": 12,
+      "unverified_script_exec": 3,
+      "unpinnable_action": 41
+    },
+    "exploitable_findings": 2,
+    "exploitable_repos": [
+      "snyk/snyk-api-import",
+      "snyk/snyk-ls"
+    ]
+  },
+  "jpmc": {
+    "name": "JPMorgan Chase",
+    "repos_scanned": 16,
+    "scan_errors": 0,
+    "findings_total": 45,
+    "by_level": {
+      "error": 10,
+      "note": 30,
+      "warning": 5
+    },
+    "by_rule": {
+      "untrusted_checkout_exec": 10,
+      "github_action_from_unverified_creator_used": 28,
+      "default_permissions_on_risky_events": 2,
+      "known_vulnerability_in_build_component": 3,
+      "unverified_script_exec": 2
+    },
+    "exploitable_findings": 10,
+    "exploitable_repos": [
+      "jpmorganchase/mosaic",
+      "jpmorganchase/salt-ds"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Pendo",
+  "collected_at": "2026-10-01",
+  "jobs": {
+    "board": "https://boards-api.greenhouse.io/v1/boards/pendo/jobs",
+    "total_open": 22,
+    "strong": [],
+    "partial": []
+  },
+  "github": {
+    "org_url": "https://github.com/pendo-io",
+    "public_repos_total": 132,
+    "sampled": 27,
+    "repos_with_actions": [],
+    "advisories": []
+  }
+}

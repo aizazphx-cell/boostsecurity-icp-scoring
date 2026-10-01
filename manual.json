@@ -1,0 +1,282 @@
+{
+  "grafana": {
+    "gate": null,
+    "signals": {
+      "C3 Exposure": [
+        1,
+        "May 2026: GitHub codebase stolen after TanStack npm / Mini Shai-Hulud compromise; Apr 2025 pwn-request GitHub Action leaked tokens",
+        "https://grafana.com/blog/grafana-labs-security-update-latest-on-tanstack-npm-supply-chain-ransomware-incident/"
+      ],
+      "C4 New sec leader": [
+        0,
+        "CISO Joe McManus in seat; no new leader in 12m found",
+        "https://grafana.com/author/joe-mcmanus/"
+      ],
+      "C5 Firmographic": [
+        1,
+        "~1,900 employees (LeadIQ est.), B2B observability, 70% of Fortune 50",
+        "https://leadiq.com/c/grafana-labs/5a1d9ddf23000053008dc84c"
+      ],
+      "C6 Compliance": [
+        1,
+        "trust.grafana.com: SOC 2 II, ISO 27001, FedRAMP High",
+        "https://trust.grafana.com/"
+      ],
+      "C7 Funding": [
+        0.5,
+        "Secondary (Ontario Teachers') Sep 30 2025; last primary $270M Aug 2024",
+        "https://grafana.com/press/2025/09/30/grafana-labs-surpasses-400m-arr-and-7000-customers-gains-new-investors-to-accelerate-global-expansion/"
+      ]
+    },
+    "rationale": "Hit by an npm supply-chain attack 5 months ago and now hiring an AppSec manager in 3 EU locations: pain is proven and budgeted."
+  },
+  "vercel": {
+    "gate": null,
+    "signals": {
+      "C4 New sec leader": [
+        0.5,
+        "Talha Tariq joined as CTO (Security) Oct 15 2025 (~11.5 months)",
+        "https://vercel.com/blog/talha-tariq-joins-vercel-as-cto-security"
+      ],
+      "C5 Firmographic": [
+        1,
+        "~885 employees (Revelio, Mar 2026), B2B platform, enterprise customers",
+        "https://www.reveliolabs.com/companies/vercel/employees"
+      ],
+      "C6 Compliance": [
+        1,
+        "security.vercel.com: SOC 2 II, ISO 27001, PCI, HIPAA, DORA/NIS2",
+        "https://security.vercel.com/"
+      ],
+      "C7 Funding": [
+        0.5,
+        "Series F $300M, Sep 30 2025",
+        "https://vercel.com/blog/series-f"
+      ]
+    },
+    "rationale": "Every trigger fires: new security exec in year one, Product Security hire open, critical Next.js advisories and an April 2026 third-party OAuth breach."
+  },
+  "sentry": {
+    "gate": null,
+    "signals": {
+      "C4 New sec leader": [
+        0,
+        "No named CISO; security directed by the CTO",
+        "https://sentry.io/security/"
+      ],
+      "C5 Firmographic": [
+        1,
+        "~456 employees (LeadIQ, Aug 2026), B2B dev tooling",
+        "https://leadiq.com/c/sentry/5a1d9d492300005b008d22de/employee-directory"
+      ],
+      "C6 Compliance": [
+        0.5,
+        "sentry.io/trust: SOC 2 II + ISO 27001; no regulated/FedRAMP",
+        "https://sentry.io/trust/"
+      ],
+      "C7 Funding": [
+        0,
+        "Last round Series E May 2022",
+        "https://sentry.io/about/press-releases/"
+      ]
+    },
+    "rationale": "Two AppSec roles open and a run of critical SSO advisories, but no security leader to buy: sell to the champion and ask who owns the budget."
+  },
+  "supabase": {
+    "gate": null,
+    "signals": {
+      "C4 New sec leader": [
+        0,
+        "CISO Bil Harmer in role since at least Oct 2025",
+        "https://www.aikido.dev/blog/security-masterclass-supabase-and-lovable"
+      ],
+      "C5 Firmographic": [
+        1,
+        "~406 employees (Revelio, Mar 2026), B2B backend platform",
+        "https://www.reveliolabs.com/companies/supabase/employees"
+      ],
+      "C6 Compliance": [
+        1,
+        "trust.supabase.io: SOC 2 II, ISO 27001, HIPAA, PCI",
+        "https://trust.supabase.io/"
+      ],
+      "C7 Funding": [
+        1,
+        "Series F $500M at $10B, Jun 2026",
+        "https://supabase.com/blog/supabase-series-f"
+      ]
+    },
+    "rationale": "$500M raised in June plus 4 critical advisories in September: money and exposure, with only a platform-security role open so far."
+  },
+  "tailscale": {
+    "gate": null,
+    "signals": {
+      "C4 New sec leader": [
+        0,
+        "No CISO; security policies owned by the COO",
+        "https://tailscale.com/security-policies"
+      ],
+      "C5 Firmographic": [
+        1,
+        "~250-290 employees (third-party est.), B2B networking",
+        "https://tailscale.com/"
+      ],
+      "C6 Compliance": [
+        0.5,
+        "tailscale.com/security: SOC 2 II only; no trust center",
+        "https://tailscale.com/security"
+      ],
+      "C7 Funding": [
+        0.5,
+        "Series C $160M, Apr 2025",
+        "https://tailscale.com/blog/series-c"
+      ]
+    },
+    "rationale": "Good fit on paper but nothing is moving: no security hiring, no leader, no recent exposure. Watch list."
+  },
+  "posthog": {
+    "gate": null,
+    "signals": {
+      "C3 Exposure": [
+        1,
+        "Nov 24 2025: Shai-Hulud 2.0 shipped malicious posthog-js/-node to npm via a pull_request_target workflow",
+        "https://posthog.com/blog/nov-24-shai-hulud-attack-post-mortem"
+      ],
+      "C4 New sec leader": [
+        0,
+        "No named security leader",
+        "https://posthog.com/handbook/company/security"
+      ],
+      "C5 Firmographic": [
+        1,
+        "~212 employees (Revelio, Mar 2026), B2B dev platform",
+        "https://www.reveliolabs.com/companies/posthog/employees"
+      ],
+      "C6 Compliance": [
+        1,
+        "trust.posthog.com: SOC 2 II, HIPAA",
+        "https://trust.posthog.com"
+      ],
+      "C7 Funding": [
+        0.5,
+        "Series E $75M, Sep 29 2025 (just outside 12m)",
+        "https://posthog.com/blog/series-e"
+      ]
+    },
+    "rationale": "Exactly the attack BoostSecurity prevents (a CI workflow leaked npm tokens) happened here 10 months ago; lead with the post-mortem."
+  },
+  "datadog": {
+    "gate": "Competitor: sells SCA via Datadog Code Security",
+    "signals": {
+      "C4 New sec leader": [
+        0,
+        "CISO Emilio Escobar ~8 years in seat",
+        "https://events.datadoghq.com/summits/datadog-summit-chicago/speakers/"
+      ],
+      "C5 Firmographic": [
+        0.5,
+        "~8,100 employees (FY2025 10-K)",
+        "https://www.sec.gov/Archives/edgar/data/1561550/000162828026008819/ddog-20251231.htm"
+      ],
+      "C6 Compliance": [
+        1,
+        "trust.datadoghq.com: FedRAMP, SOC 2, ISO",
+        "https://trust.datadoghq.com"
+      ],
+      "C7 Funding": [
+        0,
+        "Public since 2019",
+        "https://www.sec.gov/Archives/edgar/data/1561550/000162828026008819/ddog-20251231.htm"
+      ]
+    },
+    "rationale": "Would score 68 on signals alone, but Datadog sells its own SCA (Code Security), so it builds rather than buys. Disqualified."
+  },
+  "snyk": {
+    "gate": "Competitor: core SCA / supply-chain security vendor",
+    "signals": {
+      "C4 New sec leader": [
+        0,
+        "No new security leader announced",
+        "https://snyk.io/security/"
+      ],
+      "C5 Firmographic": [
+        1,
+        "~1,500 employees (Boston Globe, Jul 2026)",
+        "https://www.bostonglobe.com/2026/07/14/business/rapid7-layoffs-snyk-cybersecurity-jobs/"
+      ],
+      "C6 Compliance": [
+        1,
+        "trust.snyk.io: SOC 2 II, ISO 27001, FedRAMP Moderate",
+        "https://trust.snyk.io"
+      ],
+      "C7 Funding": [
+        0,
+        "Last round Series G Dec 2022",
+        "https://www.securityweek.com/snyk-raises-1965-million-74-billion-valuation/"
+      ]
+    },
+    "rationale": "A direct competitor. It scores 60 on raw signals (Product Security hiring, Actions everywhere), proving keyword scoring alone would put competitors at the top."
+  },
+  "jpmc": {
+    "gate": "Non-software enterprise: 318k-person bank, long enterprise cycle",
+    "signals": {
+      "C1 Hiring": [
+        1,
+        "Lead Security Engineer - Application Security (Dublin, posted 2026-09-01); ~25 Lead Security Engineer reqs Jul-Sep",
+        "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780990"
+      ],
+      "C4 New sec leader": [
+        0,
+        "Global CISO Pat Opet; no change found",
+        "https://www.cybersecuritydive.com/news/jpmorgan-chase-ciso--software-supply-chain-security/746476/"
+      ],
+      "C5 Firmographic": [
+        0,
+        "318,512 employees (FY2025 10-K)",
+        "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm"
+      ],
+      "C6 Compliance": [
+        0,
+        "No public trust center verified",
+        ""
+      ],
+      "C7 Funding": [
+        0,
+        "Public company",
+        ""
+      ]
+    },
+    "rationale": "Has AppSec hiring and an active GitHub, and its CISO publicly campaigns on supply chain, but a 318k-person bank is a 12-month enterprise cycle a lean team can't carry."
+  },
+  "pendo": {
+    "gate": null,
+    "signals": {
+      "C3 Exposure": [
+        0,
+        "Jun 2026 Klue breach reached Pendo's Salesforce CRM via a vendor integration: a SaaS-integration incident, not a software supply-chain one",
+        "https://www.pendo.io/pendo-blog/security-update-klue-breach-and-impact-on-pendo/"
+      ],
+      "C4 New sec leader": [
+        0,
+        "CISO Chuck Kesler since Nov 2018; no new security leader found",
+        "https://www.pendo.io/about/"
+      ],
+      "C5 Firmographic": [
+        1,
+        "~850-1,000 employees (company 850+, Revelio 996 Mar 2026), B2B product-analytics SaaS",
+        "https://www.pendo.io/about/"
+      ],
+      "C6 Compliance": [
+        1,
+        "trust.pendo.io: SOC 2 II, ISO 27001, HIPAA, PCI; TX-RAMP + GovRAMP for public sector",
+        "https://www.pendo.io/trust/"
+      ],
+      "C7 Funding": [
+        0,
+        "Last equity: Series F $150M Jul 2021; $100M credit facility Sep 2025 is debt",
+        "https://www.pendo.io/news/pendo-secures-100-m-credit-facility-to-accelerate-investments-in-ai/"
+      ]
+    },
+    "rationale": "Right size and compliance profile, but nothing is moving: no security hiring, no public CI/CD footprint, no exposure, same CISO since 2018. Park."
+  }
+}

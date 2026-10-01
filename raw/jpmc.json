@@ -1,0 +1,28 @@
+{
+  "name": "JPMorgan Chase",
+  "collected_at": "2026-10-01",
+  "github": {
+    "org_url": "https://github.com/jpmorganchase",
+    "public_repos_total": 74,
+    "sampled": 22,
+    "repos_with_actions": [
+      "jpmorganchase/salt-ds",
+      "jpmorganchase/mosaic",
+      "jpmorganchase/nbcelltests",
+      "jpmorganchase/dataquery-sdk",
+      "jpmorganchase/jupyter-fs",
+      "jpmorganchase/PADL",
+      "jpmorganchase/Phantom",
+      "jpmorganchase/fusion",
+      "jpmorganchase/QOKit",
+      "jpmorganchase/fusion-3.7",
+      "jpmorganchase/fusion-java-sdk",
+      "jpmorganchase/inference-server",
+      "jpmorganchase/py-avro-schema",
+      "jpmorganchase/py-adapter",
+      "jpmorganchase/react-component-usage",
+      "jpmorganchase/modular"
+    ],
+    "advisories": []
+  }
+}

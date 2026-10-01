@@ -1,0 +1,47 @@
+{
+  "name": "PostHog",
+  "collected_at": "2026-10-01",
+  "jobs": {
+    "board": "https://api.ashbyhq.com/posting-api/job-board/posthog",
+    "total_open": 8,
+    "strong": [],
+    "partial": [
+      [
+        "Security Engineer ",
+        "https://jobs.ashbyhq.com/posthog/36d5ce14-851c-450f-879a-45cbb896225e"
+      ]
+    ]
+  },
+  "github": {
+    "org_url": "https://github.com/PostHog",
+    "public_repos_total": 393,
+    "sampled": 30,
+    "repos_with_actions": [
+      "PostHog/posthog",
+      "PostHog/posthog.com",
+      "PostHog/depot-mcp",
+      "PostHog/wizard",
+      "PostHog/hedgehog-mode",
+      "PostHog/posthog-sdk-test-harness",
+      "PostHog/homebrew-tap",
+      "PostHog/postpile",
+      "PostHog/posthog-js",
+      "PostHog/posthog-python",
+      "PostHog/posthog-ios",
+      "PostHog/posthog-definitions",
+      "PostHog/owners-yaml-website",
+      "PostHog/wizard-workbench",
+      "PostHog/cool-numbers-club",
+      "PostHog/posthog-android",
+      "PostHog/sdk-specs",
+      "PostHog/hoglake",
+      "PostHog/posthog-go",
+      "PostHog/posthog-rs",
+      "PostHog/posthog-kmp",
+      "PostHog/posthog-unity",
+      "PostHog/posthog-ruby",
+      "PostHog/duckgres"
+    ],
+    "advisories": []
+  }
+}

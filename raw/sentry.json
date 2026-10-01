@@ -1,0 +1,220 @@
+{
+  "name": "Sentry",
+  "collected_at": "2026-10-01",
+  "jobs": {
+    "board": "https://api.ashbyhq.com/posting-api/job-board/sentry",
+    "total_open": 42,
+    "strong": [
+      [
+        "Security Engineer, Application Security",
+        "https://jobs.ashbyhq.com/sentry/dc1e73a4-3cb8-4269-82b5-fdc6495b7e83"
+      ],
+      [
+        "Security Engineer, Application Security",
+        "https://jobs.ashbyhq.com/sentry/67f20449-6b01-4cfa-92ca-bace58c10684"
+      ]
+    ],
+    "partial": [
+      [
+        "Security Engineer, Detection & Response",
+        "https://jobs.ashbyhq.com/sentry/ac1cb3c4-5408-4912-8591-eea2a84480b7"
+      ],
+      [
+        "Security Engineer, Detection & Response",
+        "https://jobs.ashbyhq.com/sentry/ac8fd540-f3a2-4306-b52c-195fdbd2b998"
+      ]
+    ]
+  },
+  "github": {
+    "org_url": "https://github.com/getsentry",
+    "public_repos_total": 811,
+    "sampled": 30,
+    "repos_with_actions": [
+      "getsentry/sentry",
+      "getsentry/conduit",
+      "getsentry/uptime-checker",
+      "getsentry/sentry-docs",
+      "getsentry/sentry-php",
+      "getsentry/sentry-laravel",
+      "getsentry/sentry-java",
+      "getsentry/pypi",
+      "getsentry/sentry-react-native",
+      "getsentry/sentry-cocoa",
+      "getsentry/sentry-release-registry",
+      "getsentry/sentry-python",
+      "getsentry/sentry-javascript",
+      "getsentry/self-hosted",
+      "getsentry/relay",
+      "getsentry/objectstore",
+      "getsentry/sentry-electron",
+      "getsentry/sentry-native",
+      "getsentry/sentry-dart",
+      "getsentry/sentry-android-gradle-plugin",
+      "getsentry/sentry-go",
+      "getsentry/rfcs",
+      "getsentry/symbolicator",
+      "getsentry/vanguard",
+      "getsentry/sentry-dotnet",
+      "getsentry/sentry-unreal",
+      "getsentry/arroyo",
+      "getsentry/dotagents",
+      "getsentry/MobileBuildMCP",
+      "getsentry/sentry-godot"
+    ],
+    "advisories": [
+      {
+        "id": "GHSA-rrcx-889m-5jj5",
+        "repo": "getsentry/sentry",
+        "published": "2026-08-17",
+        "severity": "critical",
+        "within_12m": true,
+        "url": "https://github.com/getsentry/sentry/security/advisories/GHSA-rrcx-889m-5jj5",
+        "summary": "Improper authentication on SAML SSO allows unauthorized organization member addition or identity linking"
+      },
+      {
+        "id": "GHSA-w699-8wff-fqxw",
+        "repo": "getsentry/sentry",
+        "published": "2026-07-24",
+        "severity": "critical",
+        "within_12m": true,
+        "url": "https://github.com/getsentry/sentry/security/advisories/GHSA-w699-8wff-fqxw",
+        "summary": "Improper authentication on SAML SSO process allows user identity linking "
+      },
+      {
+        "id": "GHSA-xm86-7c47-gjm4",
+        "repo": "getsentry/sentry",
+        "published": "2026-07-16",
+        "severity": "critical",
+        "within_12m": true,
+        "url": "https://github.com/getsentry/sentry/security/advisories/GHSA-xm86-7c47-gjm4",
+        "summary": "Unsafe pickle deserialization in Relocation Feature"
+      },
+      {
+        "id": "GHSA-fx76-375g-xq25",
+        "repo": "getsentry/sentry",
+        "published": "2026-06-05",
+        "severity": "low",
+        "within_12m": true,
+        "url": "https://github.com/getsentry/sentry/security/advisories/GHSA-fx76-375g-xq25",
+        "summary": "Attempts at prompt injection and supply chain compromise with public Data Source Names (DSNs)"
+      },
+      {
+        "id": "GHSA-jjqr-wqg2-p856",
+        "repo": "getsentry/sentry",
+        "published": "2026-06-03",
+        "severity": "high",
+        "within_12m": true,
+        "url": "https://github.com/getsentry/sentry/security/advisories/GHSA-jjqr-wqg2-p856",
+        "summary": "Inefficient Regular Expression Complexity in Sentry"
+      },
+      {
+        "id": "GHSA-rcmw-7mc7-3rj7",
+        "repo": "getsentry/sentry",
+        "published": "2026-04-22",
+        "severity": "critical",
+        "within_12m": true,
+        "url": "https://github.com/getsentry/sentry/security/advisories/GHSA-rcmw-7mc7-3rj7",
+        "summary": "Improper authentication on SAML SSO process allows user identity linking"
+      },
+      {
+        "id": "GHSA-ggmg-cqg6-j45g",
+        "repo": "getsentry/sentry",
+        "published": "2026-02-18",
+        "severity": "critical",
+        "within_12m": true,
+        "url": "https://github.com/getsentry/sentry/security/advisories/GHSA-ggmg-cqg6-j45g",
+        "summary": "Improper authentication on SAML SSO process allows user identity linking"
+      },
+      {
+        "id": "GHSA-mgh8-h4xc-pfmj",
+        "repo": "getsentry/sentry",
+        "published": "2025-06-30",
+        "severity": "medium",
+        "within_12m": false,
+        "url": "https://github.com/getsentry/sentry/security/advisories/GHSA-mgh8-h4xc-pfmj",
+        "summary": "Missing Invalidation of Authorization Codes During OAuth Exchange and Revocation "
+      },
+      {
+        "id": "GHSA-7pq6-v88g-wf3w",
+        "repo": "getsentry/sentry",
+        "published": "2025-01-15",
+        "severity": "critical",
+        "within_12m": false,
+        "url": "https://github.com/getsentry/sentry/security/advisories/GHSA-7pq6-v88g-wf3w",
+        "summary": "Improper authentication on SAML SSO process allows user impersonation"
+      },
+      {
+        "id": "GHSA-v5h2-q2w4-gpcx",
+        "repo": "getsentry/sentry",
+        "published": "2024-11-22",
+        "severity": "medium",
+        "within_12m": false,
+        "url": "https://github.com/getsentry/sentry/security/advisories/GHSA-v5h2-q2w4-gpcx",
+        "summary": "Improper error handling leaks Application Integration Client Secret"
+      },
+      {
+        "id": "GHSA-7cjh-xx4r-qh3f",
+        "repo": "getsentry/sentry-java",
+        "published": "2025-06-19",
+        "severity": "critical",
+        "within_12m": false,
+        "url": "https://github.com/getsentry/sentry-java/security/advisories/GHSA-7cjh-xx4r-qh3f",
+        "summary": "Unmasked sensitive data in Android Session Replays for users of Jetpack Compose 1.8+"
+      },
+      {
+        "id": "GHSA-mchm-gjx6-7h55",
+        "repo": "getsentry/sentry-javascript",
+        "published": "2026-09-24",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/getsentry/sentry-javascript/security/advisories/GHSA-mchm-gjx6-7h55",
+        "summary": "Middleware Bypass when using Tunnel route"
+      },
+      {
+        "id": "GHSA-6465-jgvq-jhgp",
+        "repo": "getsentry/sentry-javascript",
+        "published": "2025-11-24",
+        "severity": "medium",
+        "within_12m": true,
+        "url": "https://github.com/getsentry/sentry-javascript/security/advisories/GHSA-6465-jgvq-jhgp",
+        "summary": "Sensitive HTTP headers may be inadvertently sent to Sentry when `sendDefaultPii` is set to `true`"
+      },
+      {
+        "id": "GHSA-r5w7-f542-q2j4",
+        "repo": "getsentry/sentry-javascript",
+        "published": "2025-01-28",
+        "severity": "low",
+        "within_12m": false,
+        "url": "https://github.com/getsentry/sentry-javascript/security/advisories/GHSA-r5w7-f542-q2j4",
+        "summary": "Potential DoS when using ContextLines integration"
+      },
+      {
+        "id": "GHSA-593m-55hh-j8gv",
+        "repo": "getsentry/sentry-javascript",
+        "published": "2024-10-03",
+        "severity": "low",
+        "within_12m": false,
+        "url": "https://github.com/getsentry/sentry-javascript/security/advisories/GHSA-593m-55hh-j8gv",
+        "summary": "Prototype Pollution gadget in JavaScript SDKs"
+      },
+      {
+        "id": "GHSA-2r23-8xgw-5g2g",
+        "repo": "getsentry/relay",
+        "published": "2026-05-20",
+        "severity": "low",
+        "within_12m": true,
+        "url": "https://github.com/getsentry/relay/security/advisories/GHSA-2r23-8xgw-5g2g",
+        "summary": "Specific http and url span attributes not stripped during span ingestion"
+      },
+      {
+        "id": "GHSA-8xxr-rppf-3894",
+        "repo": "getsentry/relay",
+        "published": "2024-12-13",
+        "severity": "low",
+        "within_12m": false,
+        "url": "https://github.com/getsentry/relay/security/advisories/GHSA-8xxr-rppf-3894",
+        "summary": "Failed to Scrub IP Addresses in User Contexts When \"Prevent Storage of IP Address\" Option was Enabled"
+      }
+    ]
+  }
+}

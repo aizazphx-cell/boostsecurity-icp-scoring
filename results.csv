@@ -1,0 +1,11 @@
+Company,Score,Pre-gate score,Tier,Gate,C1 Hiring,C2 Pipeline risk,C3 Exposure,C4 New sec leader,C5 Firmographic,C6 Compliance,C7 Funding,Rationale
+Vercel,88,88,Tier 1,pass,1,1,1,0.5,1,1,0.5,"Every trigger fires: new security exec in year one, Product Security hire open, critical Next.js advisories and an April 2026 third-party OAuth breach."
+Grafana Labs,80,80,Tier 1,pass,1,1,1,0,1,1,0.5,Hit by an npm supply-chain attack 5 months ago and now hiring an AppSec manager in 3 EU locations: pain is proven and budgeted.
+Supabase,75,75,Tier 1,pass,0.5,1,1,0,1,1,1,"$500M raised in June plus 4 critical advisories in September: money and exposure, with only a platform-security role open so far."
+Sentry,70,70,Tier 1,pass,1,1,1,0,1,0.5,0,"Two AppSec roles open and a run of critical SSO advisories, but no security leader to buy: sell to the champion and ask who owns the budget."
+PostHog,70,70,Tier 1,pass,0.5,1,1,0,1,1,0.5,Exactly the attack BoostSecurity prevents (a CI workflow leaked npm tokens) happened here 10 months ago; lead with the post-mortem.
+Pendo,25,25,Tier 3,pass,0,0,0,0,1,1,0,"Right size and compliance profile, but nothing is moving: no security hiring, no public CI/CD footprint, no exposure, same CISO since 2018. Park."
+Tailscale,25,25,Tier 3,pass,0,0,0,0,1,0.5,0.5,"Good fit on paper but nothing is moving: no security hiring, no leader, no recent exposure. Watch list."
+Datadog,0,68,DQ,Competitor: sells SCA via Datadog Code Security,1,1,1,0,0.5,1,0,"Would score 68 on signals alone, but Datadog sells its own SCA (Code Security), so it builds rather than buys. Disqualified."
+Snyk,0,52,DQ,Competitor: core SCA / supply-chain security vendor,1,0.5,0,0,1,1,0,"A direct competitor. It scores 60 on raw signals (Product Security hiring, Actions everywhere), proving keyword scoring alone would put competitors at the top."
+JPMorgan Chase,0,28,DQ,"Non-software enterprise: 318k-person bank, long enterprise cycle",1,0.5,0,0,0,0,0,"Has AppSec hiring and an active GitHub, and its CISO publicly campaigns on supply chain, but a 318k-person bank is a 12-month enterprise cycle a lean team can't carry."
